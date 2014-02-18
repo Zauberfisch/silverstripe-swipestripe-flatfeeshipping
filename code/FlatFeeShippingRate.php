@@ -138,7 +138,7 @@ class FlatFeeShippingRate_Admin extends ShopAdmin {
 	);
 
 	private static $url_rule = 'ShopConfig/FlatFeeShipping';
-	protected static $url_priority = 110;
+	private static $url_priority = 110;
 	private static $menu_title = 'Shop Flat Fee Shipping Rates';
 
 	private static $url_handlers = array(
